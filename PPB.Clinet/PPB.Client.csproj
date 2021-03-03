@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\Musics\zeybek.wav" />
+    <Content Include="bin\Debug\netcoreapp3.1\PPB.Client.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\PPB.Client.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\PPB.Client.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\Humanizer.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Musics\How_I_Met _Your_Mother-La_Vie_en_Rose.mp3" />
+    <None Include="bin\Debug\netcoreapp3.1\Musics\Lady_Gaga,Bradley_Cooper-Shallow.mp3" />
+    <None Include="bin\Debug\netcoreapp3.1\Musics\Miley_Cyrus-The_Backyard_Sessions-Jolene.mp3" />
+    <None Include="bin\Debug\netcoreapp3.1\NAudio.Asio.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\NAudio.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\NAudio.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\NAudio.Midi.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\NAudio.Wasapi.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\NAudio.WinForms.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\NAudio.WinMM.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Npgsql.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PPB.BL.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PPB.BL.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\PPB.Client.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PPB.Client.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\PPB.Client.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\PPB.DAL.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PPB.DAL.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\PPB.Helper.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PPB.Helper.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NAudio" Version="2.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PPB.BL\PPB.BL.csproj" />
+    <ProjectReference Include="..\PPB.DAL\PPB.DAL.csproj" />
+    <ProjectReference Include="..\PPB.Helper\PPB.Helper.csproj" />
+  </ItemGroup>
+
+</Project>
